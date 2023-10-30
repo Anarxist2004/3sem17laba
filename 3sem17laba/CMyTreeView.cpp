@@ -65,7 +65,7 @@ void CMyTreeView::FillTree()
 
 	tree.DeleteAllItems();
 
-	m_hDrivers = tree.InsertItem(L"Объекты", -1, -1, NULL, TVI_FIRST);
+	m_hDrivers = tree.InsertItem(L"водители", -1, -1, NULL, TVI_FIRST);
 	m_hCars = tree.InsertItem(L"Машины", - 1, -1, NULL, TVI_FIRST);
 	m_hfl = tree.InsertItem(L"рейсы", - 1, -1, NULL, TVI_FIRST);
 
